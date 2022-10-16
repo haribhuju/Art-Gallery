@@ -5,52 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="main.css" />
     <title>Art Gallery</title>
   </head>
   <body>
+    <header class="header">
+      <div class="header__img"></div>
+    </header>
     <div class="wrapper">
       <main class="hero">
-        <div class="hero__img"></div>
         <div class="hero__info">
-          <h1 class="hero__info-title">Modern Art Gallery</h1>
+          <h1 class="hero__info-title">
+            Modern <br />
+            Art Gallery
+          </h1>
           <p class="hero__info-para">
             The arts in the collection of the Modern Art Gallery all started
             from a spark of inspiration. Will these pieces inspire you? Visit us
             and find out.
           </p>
-          <a href="#" class="hero__info-btn">Our Location</a>
+          <div class="hero__info-cta">
+            <a href="#" class="hero__info-cta-btn">Our Location</a>
+            <img
+              class="hero__info-cta-arrow"
+              src="/main/assets/icon-arrow-right.svg"
+              alt="icon arrow"
+            />
+          </div>
         </div>
       </main>
       <section class="gallery">
         <div class="gallery__info">
-          <h1 class="gallery__info-title">Your Day at the gallery</h1>
+          <h1 class="gallery__info-title">
+            Your Day <br class="gallery__info-title-style" />at the gallery
+          </h1>
           <p class="gallery__info-para">
             Wander through our distinct collections and find new insights about
             our artists. Dive into the details of their creative process.
           </p>
         </div>
-        <img class="gallery__info-img1" src="/main/assets/mobile/image-grid-1.jpg" alt="image 1" >
-        <img class="gallery__info-img2" src="/main/assets/mobile/image-grid-2.jpg" alt="image 2" >
-        <img class="gallery__info-img3" src="/main/assets/mobile/image-grid-3.jpg" alt="image 3" >
+        <img
+          class="gallery__img1"
+          src="/main/assets/mobile/image-grid-1.jpg"
+          alt="image 1"
+        />
+        <img
+          class="gallery__img2"
+          src="/main/assets/mobile/image-grid-2.jpg"
+          alt="image 2"
+        />
+        <img
+          class="gallery__img3"
+          src="/main/assets/mobile/image-grid-3.jpg"
+          alt="image 3"
+        />
         <div class="gallery__infoTwo">
-            <h1 class="gallery__infoTwo-title">COME & BE INSPIRED</h1>
-            <p class="gallery__infoTwo-para">
-                We’re excited to welcome you to our gallery and see how our collections influence you.
-            </p>
+          <h1 class="gallery__infoTwo-title">COME & BE INSPIRED</h1>
+          <p class="gallery__infoTwo-para">
+            We’re excited to welcome you to our gallery and see how our
+            collections influence you.
+          </p>
         </div>
       </section>
-      <footer class="footer">
-        <img class="footer__logo" src="/main/assets/logo-light.svg" alt="footer logo">
-        <p class="footer__info"></p>
-        <div class="footer__social">
-            <img src="/main/assets/icon-facebook.svg" alt="icon-facebook" class="footer__social-facebook">
-            <img src="/main/assets/icon-instagram.svg" alt="icon-instagram" class="footer__social-instagram">
-            <img src="/main/assets/icon-twitter.svg" alt="icon-twitter" class="footer__social-twitter">
-        </div>
-      </footer>
-
+      
     </div>
+    <footer class="footer">
+      <img
+        class="footer__logo"
+        src="/main/assets/logo-light.svg"
+        alt="footer logo"
+      />
+      <p class="footer__info">
+        The Modern Art Gallery is free to all visitors and open seven days a
+        week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+      </p>
+      <div class="footer__social">
+        <img
+          src="/main/assets/icon-facebook.svg"
+          alt="icon-facebook"
+          class="footer__social-facebook"
+        />
+        <img
+          src="/main/assets/icon-instagram.svg"
+          alt="icon-instagram"
+          class="footer__social-instagram"
+        />
+        <img
+          src="/main/assets/icon-twitter.svg"
+          alt="icon-twitter"
+          class="footer__social-twitter"
+        />
+      </div>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>
