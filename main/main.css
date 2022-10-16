@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: "", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Outfit", sans-serif;
   font-size: 1.8rem;
   line-height: 2.8rem;
 }
@@ -29,4 +30,132 @@ img {
 
 :root {
   font-size: 62.25%;
+}
+
+.wrapper {
+  padding: 0 1.6rem;
+}
+
+.header {
+  width: 100%;
+}
+.header__img {
+  width: 100%;
+  height: auto;
+  background-image: url(/main/assets/mobile/image-hero.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 66.64%;
+}
+
+.hero__info > * {
+  margin-top: 3.2rem;
+}
+.hero__info-title {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display";
+  font-size: 6rem;
+  line-height: 5.5rem;
+  font-weight: 900;
+}
+.hero__info-para {
+  font-family: "Outfit";
+  font-weight: 300;
+  color: #444444;
+}
+.hero__info-cta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero__info-cta-btn {
+  text-transform: uppercase;
+  background-color: #151515;
+  color: #ffffff;
+  font-family: "Big Shoulders Display";
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 0.36rem;
+  padding: 1.36rem 2.2rem;
+}
+.hero__info-cta-arrow {
+  background-color: #d5966c;
+  width: 40px;
+  height: 55px;
+  padding: 2rem 1.5rem;
+}
+
+.gallery {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.gallery__info {
+  order: 2;
+}
+.gallery__info-title {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display";
+  font-size: 5rem;
+  line-height: 4.5rem;
+  font-weight: 900;
+  color: #151515;
+}
+.gallery__info-para {
+  margin-top: 2.1rem;
+  font-family: "Outfit";
+  font-weight: 300;
+  color: #444444;
+}
+.gallery__img1 {
+  order: 1;
+}
+.gallery__img2 {
+  order: 3;
+}
+.gallery__img3 {
+  order: 4;
+}
+.gallery__infoTwo {
+  order: 5;
+  background-color: #151515;
+  padding: 4.8rem 2.4rem;
+  color: #ffffff;
+}
+.gallery__infoTwo-title {
+  font-family: "Big Shoulders Display";
+  font-size: 5rem;
+  line-height: 4.5rem;
+  font-weight: 900;
+}
+.gallery__infoTwo-para {
+  margin-top: 2.4rem;
+  font-family: "Outfit";
+  font-weight: 300;
+}
+
+.footer {
+  margin-top: 12rem;
+  background-color: #151515;
+  padding: 4.8rem 3.2rem;
+}
+.footer__logo {
+  width: 110px;
+}
+.footer__info {
+  color: #ffffff;
+  padding: 3.8rem 0;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.footer__social {
+  display: flex;
+  gap: 2rem;
+}
+.footer__social > img {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=main.css.map */
