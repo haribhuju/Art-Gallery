@@ -1,0 +1,60 @@
+@use "../general/colors" as clrs;
+
+.gallery{
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+    &__info{
+        order:2;
+
+        &-title{
+            text-transform: uppercase;
+            font-family: "Big Shoulders Display";
+            font-size: 5rem;
+            line-height: 4.5rem;
+            font-weight: 900;
+            color: clrs.color(secondary-bg);
+
+        }
+
+        &-para{
+            margin-top: 2.1rem;
+            font-family: 'Outfit';
+            font-weight: 300;
+            color: clrs.color(para-text);
+        }
+    }
+
+    &__img1{
+        order: 1;
+    }
+
+    &__img2{
+        order: 3;
+    }
+    &__img3{
+        order: 4;
+    }
+
+    &__infoTwo{
+        order: 5;
+        background-color: clrs.color(secondary-bg);
+        padding: 4.8rem 2.4rem;
+        color: clrs.color(main-bg);
+
+        &-title{
+            font-family: 'Big Shoulders Display';
+            font-size: 5rem;
+            line-height: 4.5rem;
+            font-weight: 900;
+        }
+
+        &-para{
+            margin-top: 2.4rem;
+            font-family: 'Outfit';
+            font-weight: 300;
+        }
+    }
+}

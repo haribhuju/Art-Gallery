@@ -1,0 +1,54 @@
+@use "../general/colors" as clrs;
+
+.hero{
+
+    &__info{
+
+        & > * {
+            margin-top: 3.2rem;
+        }
+
+        &-title{
+            text-transform: uppercase;
+            font-family: "Big Shoulders Display";
+            font-size: 6rem;
+            line-height: 5.5rem;
+            font-weight: 900;
+        }
+
+        &-para{
+            font-family: "Outfit";
+            font-weight: 300;
+            color: clrs.color(para-text);
+        }
+        &-cta{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            &-btn{
+                
+                text-transform: uppercase;
+                background-color: clrs.color(secondary-bg);
+                color: clrs.color(main-bg);
+    
+                font-family: "Big Shoulders Display";
+                font-weight: 800;
+                font-size: 2rem;
+                letter-spacing: 0.36rem;
+                padding: 1.36rem 2.2rem;
+
+                  
+            }
+    
+            &-arrow{
+                background-color: clrs.color(primary-bg);
+                width:40px;
+                height: 55px;
+                padding: 2rem 1.5rem;
+            }
+        }
+        
+
+
+    }
+}

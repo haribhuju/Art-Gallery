@@ -1,0 +1,30 @@
+@use "../general/colors" as clrs;
+
+.footer{
+    margin-top: 12rem;
+    background-color: clrs.color(secondary-bg);
+    padding: 4.8rem 3.2rem;
+
+    &__logo{
+        width: 110px;
+    }
+
+    &__info{
+        color: clrs.color(main-bg);
+        padding: 3.8rem 0;
+        font-family: 'Outfit';
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+
+    &__social{
+        display: flex;
+        gap: 2rem;
+
+        & > img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
