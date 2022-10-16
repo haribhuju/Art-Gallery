@@ -30,11 +30,11 @@
   }
   
   $fs-st: (
-    "xl": 4rem,
-    "l": 3rem,
-    "m": 2rem,
-    "s": 1rem,
-    "c": 2rem
+    "xl": 9.6rem,
+    "l": 7rem,
+    "m": 6rem,
+    "s": 3.6rem,
+    "c": 2.2rem
   );
   
   @function font-size-st($f-s-st) {
