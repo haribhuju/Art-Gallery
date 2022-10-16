@@ -237,7 +237,7 @@ img {
     margin: 0 auto;
   }
   .header__img {
-    background-image: url(/main/assets/desktop/image-hero.jpg);
+    background-image: url(main/assets/desktop/image-hero.jpg);
     position: relative;
     left: 350px;
   }
