@@ -1,0 +1,51 @@
+:root {
+    font-size: 62.25%;
+  }
+  // -------short form --------
+  
+  //      fs = font size
+  //      fw = font weight
+  
+  // ------Sizing Nature-------
+  
+  //      d = dynamic
+  //      st = static
+  
+  // ------Sizing-------
+  
+  //      l = large
+  //      m = medium
+  //      s = small
+  //      xs = extra small
+  //      c = customized
+  
+  $fs-d: (
+    "l": calc(2rem + 3vw),
+    "m": calc(1rem + 2vw),
+    "s": calc(1rem + 1vw),
+  );
+  
+  @function font-size-d($f-s-d) {
+    @return map-get($fs-d, $f-s-d);
+  }
+  
+  $fs-st: (
+    "xl": 4rem,
+    "l": 3rem,
+    "m": 2rem,
+    "s": 1rem,
+    "c": 2rem
+  );
+  
+  @function font-size-st($f-s-st) {
+    @return map-get($fs-st, $f-s-st);
+  }
+  
+  $fw: (
+    "regular": 400,
+    "bold": 700,
+  );
+  
+  @function font-weight($f-w) {
+    @return map-get($fw, $f-w);
+  }

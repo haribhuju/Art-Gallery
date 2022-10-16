@@ -1,0 +1,7 @@
+$gradients: (
+    //'gradient-primary': linear-gradient(#A060FF, #CB30E3, #FFA84E)
+);
+
+@function gradient($grad){
+    @return map-get($gradients, $grad);
+}

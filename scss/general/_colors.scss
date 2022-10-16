@@ -1,0 +1,8 @@
+$colors: (
+   // "main-bg": #FAF8F6,
+
+);
+
+@function color($colorName){
+    @return map-get($colors, $colorName);
+}
