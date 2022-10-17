@@ -44,7 +44,7 @@ img {
 .header__img {
   width: 100%;
   height: auto;
-  background-image: url(/main/assets/mobile/image-hero.jpg);
+  background-image: url(assets/mobile/image-hero.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 66.64%;
@@ -146,6 +146,7 @@ img {
 }
 
 .footer {
+  max-width: 1100px;
   margin-top: 12rem;
   background-color: #151515;
   padding: 4.8rem 3.2rem;
@@ -186,7 +187,7 @@ img {
     position: relative;
   }
   .header__img {
-    background-image: url(/main/assets/tablet/image-hero.jpg);
+    background-image: url(assets/tablet/image-hero.jpg);
   }
   .hero {
     position: absolute;
@@ -237,7 +238,7 @@ img {
     margin: 0 auto;
   }
   .header__img {
-    background-image: url(main/assets/desktop/image-hero.jpg);
+    background-image: url(assets/desktop/image-hero.jpg);
     position: relative;
     left: 350px;
   }

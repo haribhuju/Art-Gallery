@@ -1,6 +1,7 @@
 @use "../general/colors" as clrs;
 
 .footer{
+    max-width: 1100px;
     margin-top: 12rem;
     background-color: clrs.color(secondary-bg);
     padding: 4.8rem 3.2rem;
