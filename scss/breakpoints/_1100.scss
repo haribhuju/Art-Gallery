@@ -48,6 +48,17 @@
 
     
   }
+
+  .gallery{
+    &__info{
+      min-width: 350px;
+      margin-top: 5rem;
+    }
+    &__infoTwo{
+      min-width: 445px;
+      padding: 6.5rem 4.8rem;
+  }
+  }
   .tablet {
     display: none;
   }

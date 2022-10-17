@@ -272,6 +272,14 @@ img {
   .hero__info-cta {
     grid-column: 3/4;
   }
+  .gallery__info {
+    min-width: 350px;
+    margin-top: 5rem;
+  }
+  .gallery__infoTwo {
+    min-width: 445px;
+    padding: 6.5rem 4.8rem;
+  }
   .tablet {
     display: none;
   }
