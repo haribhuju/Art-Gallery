@@ -6,4 +6,4 @@
   # Art Gallery
   
   
-  LIVE URL: 
+  LIVE URL: https://artgallery-haribhuju.netlify.app/
